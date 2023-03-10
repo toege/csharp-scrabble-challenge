@@ -11,13 +11,14 @@ namespace csharp_scrabble_challenge.Main
     {
         public Scrabble(string word)
         {
-            //TODO:
+            //TODO: Go to the 'View' menu and open the task list
+            //TODO: do something with the word variable
         }
 
         public int score()
         {
-            //TODO: score calculation code goes here?
-            throw new NotImplementedException();
+            //TODO: score calculation code goes here
+            throw new NotImplementedException(); //TODO: Remove this line when the code has been written
         }
     }
 }
