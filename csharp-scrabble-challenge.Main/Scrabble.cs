@@ -10,8 +10,7 @@ namespace csharp_scrabble_challenge.Main
     public class Scrabble
     {
         public Scrabble(string word)
-        {
-            //TODO: Go to the 'View' menu and open the task list
+        {            
             //TODO: do something with the word variable
         }
 
