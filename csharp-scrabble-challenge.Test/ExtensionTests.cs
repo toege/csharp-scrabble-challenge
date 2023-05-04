@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace csharp_scrabble_challenge.Test
 {
+    [TestFixture]
     public class ExtensionTests
     {
 
@@ -17,8 +18,7 @@ namespace csharp_scrabble_challenge.Test
         [TestCase("[quirky]", 66)] //extension triple word
         [TestCase("{OXyPHEnBUTaZoNE}", 82)]
         [TestCase("[OXyPHEnBUTaZoNE]", 123)]
-
-        public void WordScoreTests(string word, int targetScore)
+        public void ExtendedCriteriaTests(string word, int targetScore)
         {
             Assert.AreEqual(this.GetWordScore(word), targetScore);
         }

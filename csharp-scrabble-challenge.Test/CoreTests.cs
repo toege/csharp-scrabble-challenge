@@ -1,7 +1,7 @@
 ﻿using csharp_scrabble_challenge.Main;
 using NUnit.Framework;
 
-namespace csharp_scrabble_challenge_exemplar.Test
+namespace csharp_scrabble_challenge.Test
 {
     [TestFixture]
     public class CoreTests
