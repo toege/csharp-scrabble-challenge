@@ -4,9 +4,8 @@ using NUnit.Framework;
 namespace csharp_scrabble_challenge_exemplar.Test
 {
     [TestFixture]
-    public class ScrabbleTest
-    {
-        [Test]
+    public class CoreTests
+    {        
         [TestCase("", 0)]
         [TestCase(" ", 0)]
         [TestCase(" \t\n", 0)]
