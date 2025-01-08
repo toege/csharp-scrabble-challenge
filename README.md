@@ -75,3 +75,10 @@ Your solution should support the ability to define specific letters as double an
 ### Double or Triple Word
 Similar to above, your solution should support the ability to define double and triple word scores. To indicate a double word score, the submitted word will be enclose in a pair of curly brackets (for example `{dog}`), and for triple word score a pair of square brackets (`[dog]`). Your solution should detect these brackets and apply the correct score modifications. You should add tests for this functionality to the spec file.
 
+## Super Extension
+
+Add a Console UI onto the application.  You can use the Program.cs in the .Main project for this.  Output a simple menu, enter words to score or any functionality you wish to include.
+
+
+
+
