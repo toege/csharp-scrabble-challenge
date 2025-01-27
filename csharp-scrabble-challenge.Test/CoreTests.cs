@@ -17,7 +17,7 @@ namespace csharp_scrabble_challenge.Test
         [TestCase("street", 6)]
         public void WordScoreTests(string word, int targetScore)
         {
-            Assert.AreEqual(this.GetWordScore(word), targetScore);
+            Assert.That(this.GetWordScore(word), Is.EqualTo(targetScore));
         }
 
         private int GetWordScore(string word) => new Scrabble(word).score();

@@ -46,9 +46,18 @@ namespace csharp_scrabble_challenge.Main
 
         public int score()
         {
+            if (_word == "")
+            {
+                return 0;
+            }
             int score = 0;
             foreach (char letter in this._word)
             {
+                if (!Char.IsLetter(letter))
+                {
+                    return 0;
+                }
+
                 int letterScore = scoreMap[Char.ToUpper(letter)];
 
                 if (letterScore < 0)
